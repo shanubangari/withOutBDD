@@ -6,7 +6,7 @@ public class Print1st5FibonacciNos {
 	
 	int a=0;
 	int b=1;
-	int count=0;
+	int count=0; 
 	for(int i=2; i<5; i++) {
 		count=a+b;
 		if(count<=5) {
