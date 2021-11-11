@@ -21,9 +21,7 @@ public class DataProvidePostReqTest {
 		.then()
 		.log().all();
 		
-		
+	}	
 	}
 
-	@DataProvider
-	public void dataProvie
-}
+	
