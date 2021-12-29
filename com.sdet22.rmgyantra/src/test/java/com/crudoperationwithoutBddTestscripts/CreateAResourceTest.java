@@ -28,6 +28,7 @@ public class CreateAResourceTest {
 		validateResp.contentType(ContentType.JSON);
 		validateResp.log().all();
 		
+		
 	}
 
 }

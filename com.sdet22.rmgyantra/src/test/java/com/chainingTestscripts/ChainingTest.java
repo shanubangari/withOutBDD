@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.*;
 
 import org.testng.annotations.Test;
 
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class ChainingTest {
@@ -17,7 +18,7 @@ public class ChainingTest {
 		.when()
 			.delete("http://localhost:8084/projects/{projectId}")
 		.then()
-			.log().all();
+			.contentType(ContentType.JSON).statusCode(204).log().all();
 		
 	}
 

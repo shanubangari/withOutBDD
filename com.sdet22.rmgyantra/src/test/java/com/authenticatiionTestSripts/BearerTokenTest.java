@@ -1,4 +1,4 @@
-package com.authenticatiionTestSripts;
+ package com.authenticatiionTestSripts;
 
 import static io.restassured.RestAssured.given;
 
